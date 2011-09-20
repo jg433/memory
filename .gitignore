@@ -1,0 +1,13 @@
+.bundle
+db/*.sqlite3*
+config/database.yml
+log/*.log
+*.log
+tmp/**/*
+.rspec
+spec/**/*
+test/**/*
+doc/api
+doc/app
+*.swp
+*~ 
