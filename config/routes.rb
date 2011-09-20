@@ -1,4 +1,11 @@
 Memory::Application.routes.draw do
+  get "cardlayout/index"
+
+  get "welcome/index"
+
+  match '/welcome', :to => 'welcome#index'
+  match '/cardlayout', :to => 'cardlayout#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
