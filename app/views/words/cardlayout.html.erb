@@ -1,0 +1,25 @@
+
+
+
+<form accept-charset="UTF-8" action="/cardlayout" class="raumsuche_form round" id="new_cardlayout" method="post">
+	
+	<% @words.each do |word| %>
+		<%= word.fr %>
+	<% end %>
+
+	<br>
+	<%= radio_button("word", "category", "rails") %>
+	<input id="word_category_rails" name="word[category]" type="radio" value="rails" />
+	<br />
+	
+	<%= collection_select(:word, :id, @words, :id, :group) %>
+	<br />
+
+	<%= collection_select(:word, :id, Word.find(:all), :id, :group,
+                 {:prompt => 'Thema'}) %>
+	<br>
+	<input type="submit" class="button" value="Suchen">
+</form>
+
+
+

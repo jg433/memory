@@ -1,0 +1,235 @@
+/* Farben:
+schwarz: #000;
+hellblau: #CFF; // background
+blau: #369;
+*/
+
+/* border:solid black 1px;*/
+
+body{
+color:#000;
+background-color:#CFF;
+min-width:740px;
+margin-top:50px;
+margin-left:80px;
+padding:0;
+font-size:1.0em;
+font-family:Helvetica, Arial, sans-serif;
+font-weight:bold;
+letter-spacing:0.0em;
+line-height:1.5em;
+}
+
+img{
+
+}
+
+a{
+color:#C00;
+background-color:#CFF;
+text-decoration:none;
+font-weight:bold;
+}
+
+a:link{color:#C00;background-color:#CFF;}
+a:hover{color:#369;background-color:#CFF;}
+a:active{color:#369;background-color:#CFF;}
+
+
+.kartenFont{
+color:#000;
+background-color:#FFF;
+}
+
+/**************** Start *******************/
+.indexlogo{
+font-size:2.0em;
+color:#369;
+text-align:center;
+background-color:#CFF;
+padding-bottom:30px;
+}
+
+.imgcentral{
+padding-top:50px;
+text-align:center;
+padding-bottom:50px;
+}
+
+.enter{
+color:#C00;
+background-color:#CFF;
+font-weight:bold;
+line-height:2em;
+text-align:center;
+}
+
+/**************** Ende Start *******************/
+.logo{
+float:left;
+position:absolute;
+margin-top:0px;
+font-size:2.0em;
+color:#369;
+text-align:left;
+background-color:#CFF;
+padding-bottom:30px;
+/*border:solid black 1px;*/
+}
+
+
+.start{
+clear:both;
+margin-top:80px;
+line-height:4em;
+word-spacing:1.5em;
+}
+
+
+.auslageAbstand{
+margin-right:10px;
+margin-bottom:10px;
+}
+
+
+.kartentext{
+float:left;
+border:solid #369 1px;
+text-align:center;
+color:#369;
+background-color:#FFF;
+font-size:smaller;
+line-height:1.25em;
+height:130px;
+width:111px;
+margin:10px;
+}
+
+.deckblatt24{
+float:left;
+border:solid #CFF 1px;
+text-align:center;
+color:#369;
+background-color:#FFF;
+font-size:smaller;
+line-height:1.25em;
+height:130px;
+width:111px;
+margin:10px;
+}
+
+
+
+.background24{
+float:left;
+border:solid #CFF 1px;
+text-align:center;
+color:#369;
+background-color:#FFF;
+font-size:larger;
+line-height:1.25em;
+height:130px;
+width:111px;
+margin:10px;	
+}
+
+.themaText{
+margin-top:-20px;	
+}
+
+.justeImg{
+padding-left:75px;	
+}
+
+.fauxImg{
+padding-left:20px;	
+}
+
+.klicks{
+font-weight:bold;
+color:#369;
+}
+
+.auswertung{
+font-weight:bold;
+color:#C00;	
+}
+
+.menu{
+color:#000;
+background-color:#CFF;
+font-weight:bold;
+padding-top:30px;
+margin-right:80px;
+line-height:2em;
+text-align:right;
+}
+
+
+.central{
+color:#000;
+background-color:#CFF;
+font-size:smaller;
+line-height:2em;
+margin-left:350px;
+margin-top:100px;
+border-right:15px solid #699;
+width:50%;
+/*border:solid black 1px;*/
+}
+
+ul{
+color:#000;
+background-color:#CFF;
+line-height:2em;
+}
+
+.gewonnen{
+	margin-left:20%;	
+}
+
+.blau{
+color:#369;
+background-color:#CFF;
+}
+
+.schwarz{
+color:#000;
+background-color:#CFF;
+}
+
+.fett{
+font-weight:bold;
+}
+
+.kleiner{
+font-size:smaller;
+}
+
+.mitte{
+text-align:center;
+}
+
+.rechts{
+text-align:right;
+}
+
+
+
+/**************** Vokabeln editieren *******************/
+
+#wordlist{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+#wordlist th, td{
+	text-align:left;
+	padding:3px;
+}
+
+#wordlist td{
+	font-weight: normal;
+}
+
+

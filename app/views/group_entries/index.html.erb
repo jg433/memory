@@ -1,0 +1,26 @@
+<h1>Listing group_entries</h1>
+
+<%= link_to 'New Group entry', new_group_entry_path %>
+<table>
+  <tr>
+    <th>Word</th>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @group_entries.each do |group_entry| %>
+  <tr>
+    <td><%= group_entry.word_id %></td>
+    <td><%= group_entry.name %></td>
+    <td><%= link_to 'Show', group_entry %></td>
+    <td><%= link_to 'Edit', edit_group_entry_path(group_entry) %></td>
+    <td><%= link_to 'Destroy', group_entry, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+

@@ -30,3 +30,17 @@ gem 'jquery-rails', '>= 1.0.12'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+group :development do
+  gem 'rspec-rails', '>= 2.5.0' # Damit RSpec in Kraft tritt, an der Konsole noch aufrufen: $ rails generate rspec:install
+  gem 'annotate-models', '>= 1.0.4' # Dann an der Konsole aufrufen: $ annotate
+# Das bewirkt, dass die Model-Klassen die DB-Struktur automatisch vorangestellt bekommen.
+end
+
+group :test do
+  gem 'rspec', '>= 2.5.0'
+  gem 'webrat', '>= 0.7.1'
+  gem 'factory_girl_rails', '>= 1.0.1' # Ermöglicht gefakte Models für Tests
+
+end
+
