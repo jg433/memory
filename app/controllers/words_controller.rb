@@ -1,16 +1,7 @@
+
+# diese Klasse dient lediglich der Verwaltung der Worte unter der URL: http://localhost:3000/words
 class WordsController < ApplicationController
 
-  @@anzahl_mini = 16
-  @@anzahl_default = 24
-  
-  
-  def get_anzahl_mini
-    @@anzahl_mini
-  end
-  
-  def get_anzahl_default
-    @@anzahl_default
-  end
 
   # GET /words
   # GET /words.xml

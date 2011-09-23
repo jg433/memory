@@ -1,17 +1,15 @@
 Memory::Application.routes.draw do
+  get "cards/play"
+
   resources :group_entries
 
-  resources :groups
-
   resources :words
-
-  get "cardlayout/index"
 
   get "welcome/index"
 
   root :to => 'welcome#index'
   match '/welcome', :to => 'welcome#index'
-  match '/cardlayout', :to => 'words#cardlayout'
+  match '/cardlayout', :to => 'cards#play'
 
 
   # The priority is based upon order of creation:

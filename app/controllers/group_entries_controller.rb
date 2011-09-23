@@ -1,3 +1,4 @@
+# diese Klasse dient lediglich der Verwaltung der Einträge von Themen unter der URL: http://localhost:3000/group_entries
 class GroupEntriesController < ApplicationController
   # GET /group_entries
   # GET /group_entries.xml
