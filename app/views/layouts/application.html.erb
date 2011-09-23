@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Fionas Memory</title>
+	  <title>Fionas Memory<%= @title %></title><!-- von jedem Controller gesetzt, bzw. default in application_helper.rb (funktioniert nicht..)-->
 	  <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
 	  <%= stylesheet_link_tag 'memory', :media => 'screen' %>
 	  <%= javascript_include_tag :defaults %>
@@ -11,5 +11,6 @@
 
 <%= yield %>
 
+<p><%= debug(params) if Rails.env.development? %></p>
 </body>
 </html>
