@@ -35,6 +35,7 @@ group :development do
   gem 'rspec-rails', '>= 2.5.0' # Damit RSpec in Kraft tritt, an der Konsole noch aufrufen: $ rails generate rspec:install
   gem 'annotate-models', '>= 1.0.4' # Dann an der Konsole aufrufen: $ annotate
 # Das bewirkt, dass die Model-Klassen die DB-Struktur automatisch vorangestellt bekommen.
+  gem 'ruby-debug', '>= 0.10.4'
 end
 
 group :test do
